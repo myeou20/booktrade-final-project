@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delius+Unicase&family=Russo+One&display=swap');
+
+/* STYLING THE HEADER/NAV BAR */
+@media (max-width: 640px) {
+  .header {
+    text-align: center;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(165deg, #EBEDF9, #FCD4DF);
+  color: #fff;;
+  height: 70px;
+  
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: #000;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
+}
+
+
+
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  font-family: 'Sriracha', cursive;;
+}
+form {
+  padding: 50px 250px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card h5 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
